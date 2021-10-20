@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3637397022813819624}
   - component: {fileID: 3886633068892844496}
   - component: {fileID: 1023260402}
+  - component: {fileID: 4136277508275975150}
   m_Layer: 0
   m_Name: ringo_fbx_normal_01
   m_TagString: Untagged
@@ -63,6 +64,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1.2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4136277508275975150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4121200472194402386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a19622ecc1ec84a9ec3f98245ab521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4373038653803413471
 GameObject:
   m_ObjectHideFlags: 0
