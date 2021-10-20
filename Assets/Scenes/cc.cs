@@ -7,8 +7,8 @@ public class cc : MonoBehaviour
     public Camera Camera;
     public Camera subCamera;
     public Camera subCamera1;
-    public Camera subCamera2;
-    public Camera subCamera3;
+   /* public Camera subCamera2;
+    public Camera subCamera3;*/
     //キャンバスを格納
     public GameObject Canvas;
     // Use this for initialization
