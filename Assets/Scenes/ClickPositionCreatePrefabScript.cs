@@ -8,6 +8,7 @@ public class ClickPositionCreatePrefabScript : MonoBehaviour
 	public GameObject Prefab;
 
 	public List<GameObject> prefabs;
+	
 
 	// クリックした位置座標
 	private Vector3 clickPosition;
@@ -19,6 +20,7 @@ public class ClickPositionCreatePrefabScript : MonoBehaviour
 
 	private GameObject GetRandom() {
 		return prefabs[Random.Range(0, prefabs.Count)];
+
 	}
 
 	// Update is called once per frame
