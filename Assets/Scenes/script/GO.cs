@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class GO : MonoBehaviour
 {
     public Text gameOverText;
+    public GameObject Retry;
+    public GameObject title;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +26,12 @@ public class GO : MonoBehaviour
         {
             Destroy(this.gameObject);
             gameOverText.text = "GameOver";
+            Retry.SetActive(true);
+            title.SetActive(true);
+
         }
+
+
       
     }
 }
