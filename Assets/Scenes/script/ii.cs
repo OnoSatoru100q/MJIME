@@ -7,6 +7,7 @@ public class ii : MonoBehaviour
     //Buttonを格納する変数
    
     public Canvas Menue;
+    public Canvas Canvas;
     
 
 
@@ -29,6 +30,7 @@ public class ii : MonoBehaviour
         {
             //サブカメラをオフにする
             Menue.enabled = false;
+            Canvas.enabled = true;
             
             
 
