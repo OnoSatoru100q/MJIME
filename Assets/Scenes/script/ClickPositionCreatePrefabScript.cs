@@ -8,14 +8,15 @@ public class ClickPositionCreatePrefabScript : MonoBehaviour
 	public GameObject Prefab;
 
 	public List<GameObject> prefabs;
-	
+
+	public Camera currentCamera;
 
 	// クリックした位置座標
 	private Vector3 clickPosition;
 	// Use this for initialization
 	void Start()
 	{
-
+		currentCamera = Camera.main;
 	}
 
 	private GameObject GetRandom() {
@@ -37,7 +38,7 @@ public class ClickPositionCreatePrefabScript : MonoBehaviour
 			var randomPrefab = GetRandom();
 			// オブジェクト生成 : オブジェクト(GameObject), 位置(Vector3), 角度(Quaternion)
 			// ScreenToWorldPoint(位置(Vector3))：スクリーン座標をワールド座標に変換する
-			Instantiate(randomPrefab, Camera.main.ScreenToWorldPoint(clickPosition), randomPrefab.transform.rotation);
+			Instantiate(randomPrefab, currentCamera.ScreenToWorldPoint(clickPosition), randomPrefab.transform.rotation);
 		}
 	}
 }
