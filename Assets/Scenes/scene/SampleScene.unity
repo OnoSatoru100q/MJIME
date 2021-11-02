@@ -272,6 +272,7 @@ MonoBehaviour:
   - {fileID: 366499883}
   - {fileID: 301071305}
   - {fileID: 1808169047}
+  currentCamera: {fileID: 0}
 --- !u!4 &90074744
 Transform:
   m_ObjectHideFlags: 0
@@ -414,7 +415,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -82}
+  m_AnchoredPosition: {x: 0, y: -186}
   m_SizeDelta: {x: 201, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143124573
@@ -670,8 +671,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44158873baf997648a3af37eb8aad705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio: {fileID: 0}
-  sound: {fileID: 8300000, guid: 93684166cfb550c4e99253d9d0f2e3ee, type: 3}
 --- !u!1 &282327286
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,8 +906,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44158873baf997648a3af37eb8aad705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio: {fileID: 0}
-  sound: {fileID: 8300000, guid: 93684166cfb550c4e99253d9d0f2e3ee, type: 3}
 --- !u!1 &324024920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1363,8 +1360,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44158873baf997648a3af37eb8aad705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio: {fileID: 0}
-  sound: {fileID: 8300000, guid: 93684166cfb550c4e99253d9d0f2e3ee, type: 3}
 --- !u!1 &444466985
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,6 +2114,109 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50.000004, y: 130.093, z: 0}
+--- !u!1 &793325468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 793325469}
+  - component: {fileID: 793325472}
+  - component: {fileID: 793325471}
+  - component: {fileID: 793325470}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &793325469
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793325468}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1213523046}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 6.200012, y: -27.799988}
+  m_SizeDelta: {x: -167.00922, y: -260.00436}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &793325470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793325468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 90074743}
+          m_MethodName: GenerateObject
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &793325471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793325468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &793325472
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793325468}
+  m_CullTransparentMesh: 0
 --- !u!1 &885609017
 GameObject:
   m_ObjectHideFlags: 0
@@ -3182,6 +3280,7 @@ RectTransform:
   - {fileID: 1976765130}
   - {fileID: 2021237427}
   - {fileID: 1852077776}
+  - {fileID: 793325469}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3860,8 +3959,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44158873baf997648a3af37eb8aad705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio: {fileID: 0}
-  sound: {fileID: 8300000, guid: 93684166cfb550c4e99253d9d0f2e3ee, type: 3}
 --- !u!1 &1382302097
 GameObject:
   m_ObjectHideFlags: 0
@@ -6089,8 +6186,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44158873baf997648a3af37eb8aad705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio: {fileID: 0}
-  sound: {fileID: 8300000, guid: 93684166cfb550c4e99253d9d0f2e3ee, type: 3}
 --- !u!1 &1822957955
 GameObject:
   m_ObjectHideFlags: 0
@@ -6764,7 +6859,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -144}
+  m_AnchoredPosition: {x: 0, y: -227}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2017849740
@@ -6879,7 +6974,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -69.359985, y: 23.040009}
+  m_AnchoredPosition: {x: 4, y: 23.040009}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2021237428
