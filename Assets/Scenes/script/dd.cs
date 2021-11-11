@@ -6,6 +6,11 @@ public class dd : MonoBehaviour
     //カメラを格納する変数
     public Camera Camera;
     public Camera subCamera3;
+   
+    public Camera subCamera;
+    public Camera subCamera1;
+    public Camera subCamera2;
+   
 
     public GameObject Canvas;
     // Use this for initialization
@@ -36,6 +41,10 @@ public class dd : MonoBehaviour
         {
             //サブカメラをオフにして
             subCamera3.enabled = false;
+            subCamera.enabled = false;
+            subCamera1.enabled = false;
+            subCamera2.enabled = false;
+            
             //サブカメラ１をオンにする
             Camera.enabled = true;
             //キャンバスを映すカメラをサブカメラ１オブジェクトにする

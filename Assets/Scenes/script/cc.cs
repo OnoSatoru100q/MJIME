@@ -4,8 +4,12 @@ using UnityEngine;
 public class cc : MonoBehaviour
 {
     //カメラを格納する変数
+ 
     public Camera Camera;
     public Camera subCamera;
+    public Camera subCamera1;
+    public Camera subCamera2;
+    public Camera subCamera3;
 
     public GameObject Canvas;
     // Use this for initialization
@@ -36,6 +40,9 @@ public class cc : MonoBehaviour
         {
             //サブカメラをオフにして
             subCamera.enabled = false;
+            subCamera1.enabled = false;
+            subCamera2.enabled = false;
+            subCamera3.enabled = false;
             //サブカメラ１をオンにする
             Camera.enabled = true;
             //キャンバスを映すカメラをサブカメラ１オブジェクトにする

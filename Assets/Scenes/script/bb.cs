@@ -6,6 +6,10 @@ public class bb : MonoBehaviour
     //カメラを格納する変数
     public Camera Camera;
     public Camera subCamera2;
+    public Camera subCamera;
+    public Camera subCamera1;
+    public Camera subCamera3;
+
 
     public GameObject Canvas;
     // Use this for initialization
@@ -36,6 +40,9 @@ public class bb : MonoBehaviour
         {
             //サブカメラをオフにして
             subCamera2.enabled = false;
+            subCamera.enabled = false;
+            subCamera1.enabled = false;
+            subCamera3.enabled = false;
             //サブカメラ１をオンにする
             Camera.enabled = true;
             //キャンバスを映すカメラをサブカメラ１オブジェクトにする
