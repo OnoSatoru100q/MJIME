@@ -411,7 +411,7 @@ RectTransform:
   m_Children:
   - {fileID: 959782987}
   m_Father: {fileID: 1213523046}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -832,71 +832,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
-<<<<<<< Updated upstream:Assets/Scenes/Materials/scene/SampleScene.unity
-=======
---- !u!1 &301071305 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0404528a10f746e4a9de0d5e1cba7de0,
-    type: 3}
-  m_PrefabInstance: {fileID: 2060527530}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &301071307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301071305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a19622ecc1ec84a9ec3f98245ab521, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOverText: {fileID: 2021237428}
-  Retry: {fileID: 143124568}
-  title: {fileID: 1976765125}
---- !u!54 &301071308
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301071305}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &301071309
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301071305}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1.4219742, z: 1}
-  m_Center: {x: 0, y: 0.8292295, z: -0}
---- !u!114 &301071310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301071305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44158873baf997648a3af37eb8aad705, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
->>>>>>> Stashed changes:Assets/Scenes/scene/SampleScene.unity
 --- !u!1 &324024920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1346,22 +1281,6 @@ MonoBehaviour:
   gameOverText: {fileID: 2021237428}
   Retry: {fileID: 143124568}
   title: {fileID: 1976765125}
-<<<<<<< HEAD
---- !u!114 &366499888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 366499883}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44158873baf997648a3af37eb8aad705, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< Updated upstream:Assets/Scenes/Materials/scene/SampleScene.unity
-=======
->>>>>>> 5a3a51db789ae4d917636482bc7582e21998b5e8
 --- !u!1 &434763243
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,8 +1374,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: -25, z: 0}
-=======
->>>>>>> Stashed changes:Assets/Scenes/scene/SampleScene.unity
 --- !u!1 &444466985
 GameObject:
   m_ObjectHideFlags: 0
@@ -2469,7 +2386,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1213523046}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2974,14 +2891,14 @@ RectTransform:
   m_GameObject: {fileID: 1025670918}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.70071244, y: 0.6855013, z: 1.2593397}
+  m_LocalScale: {x: 8.338972, y: 0.98034567, z: 1.2593397}
   m_Children: []
   m_Father: {fileID: 1108835177}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -6, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1025670920
@@ -3016,7 +2933,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 14.35
-  m_Text: "\u30E1\u30CB\u30E5\u30FC"
+  m_Text: "\u2261"
 --- !u!222 &1025670921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3128,15 +3045,15 @@ RectTransform:
   m_GameObject: {fileID: 1108835176}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0446798, y: 1.2483928, z: 1.5535}
+  m_LocalScale: {x: 0.05924502, y: 1.217242, z: 1.1258879}
   m_Children:
   - {fileID: 1025670919}
-  m_Father: {fileID: 1213523046}
-  m_RootOrder: 0
+  m_Father: {fileID: 1852077776}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 102.60879, y: 20.338837}
+  m_AnchoredPosition: {x: -4.9, y: -274}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1108835178
@@ -3581,7 +3498,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1108835177}
   - {fileID: 143124572}
   - {fileID: 1976765130}
   - {fileID: 2021237427}
@@ -5349,30 +5265,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b8057445d81762f418f130c00db54ed0,
         type: 3}
       propertyPath: m_LocalRotation.w
-<<<<<<< Updated upstream:Assets/Scenes/Materials/scene/SampleScene.unity
       value: 0.87583303
-=======
-      value: 1
->>>>>>> Stashed changes:Assets/Scenes/scene/SampleScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b8057445d81762f418f130c00db54ed0,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b8057445d81762f418f130c00db54ed0,
         type: 3}
       propertyPath: m_LocalRotation.y
-<<<<<<< Updated upstream:Assets/Scenes/Materials/scene/SampleScene.unity
       value: 0.48261425
-=======
-      value: 0
->>>>>>> Stashed changes:Assets/Scenes/scene/SampleScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b8057445d81762f418f130c00db54ed0,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b8057445d81762f418f130c00db54ed0,
         type: 3}
@@ -5382,11 +5290,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b8057445d81762f418f130c00db54ed0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-<<<<<<< Updated upstream:Assets/Scenes/Materials/scene/SampleScene.unity
       value: 57.713
-=======
-      value: 0
->>>>>>> Stashed changes:Assets/Scenes/scene/SampleScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b8057445d81762f418f130c00db54ed0,
         type: 3}
@@ -6587,21 +6491,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
-<<<<<<< Updated upstream:Assets/Scenes/Materials/scene/SampleScene.unity
-=======
---- !u!114 &1808169054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1808169047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44158873baf997648a3af37eb8aad705, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
->>>>>>> Stashed changes:Assets/Scenes/scene/SampleScene.unity
 --- !u!1 &1822957955
 GameObject:
   m_ObjectHideFlags: 0
@@ -6713,8 +6602,9 @@ RectTransform:
   - {fileID: 324024921}
   - {fileID: 361251580}
   - {fileID: 1199254225}
+  - {fileID: 1108835177}
   m_Father: {fileID: 1213523046}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -7272,7 +7162,7 @@ RectTransform:
   m_Children:
   - {fileID: 1655931294}
   m_Father: {fileID: 1213523046}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7387,7 +7277,7 @@ RectTransform:
   m_LocalScale: {x: 0.674568, y: 0.674568, z: 0.674568}
   m_Children: []
   m_Father: {fileID: 1213523046}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
