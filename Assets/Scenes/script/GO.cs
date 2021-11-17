@@ -8,18 +8,7 @@ public class GO : MonoBehaviour
     public Text gameOverText;
     public GameObject Retry;
     public GameObject title;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    bool x;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "GameOver")
@@ -28,10 +17,18 @@ public class GO : MonoBehaviour
             gameOverText.text = "GameOver";
             Retry.SetActive(true);
             title.SetActive(true);
-
+            ClickPositionCreatePrefabScript.GameEnd();
         }
 
-
+        if (other.tag == "ScoreTag")
+        {
+            if (x)
+            {
+                return;
+            }
+            x = true;
+            ClickPositionCreatePrefabScript.UpdateScore();
+        }
       
     }
 }

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class ClickPositionCreatePrefabScript : MonoBehaviour
 {
+    static ClickPositionCreatePrefabScript instance = default;
     // 生成したいPrefab
     public GameObject Prefab;
 
@@ -11,9 +12,16 @@ public class ClickPositionCreatePrefabScript : MonoBehaviour
 
     public Camera currentCamera;
 
+    [SerializeField] GameObject m_scoreTrigger = default;
+
+    static int m_score = 0;
     // クリックした位置座標
     private Vector3 clickPosition;
-    // Use this for initialization
+    private bool gameEnd = false;
+    private void Awake()
+    {
+        instance = this;
+    }
     void Start()
     {
         currentCamera = Camera.main;
@@ -24,10 +32,24 @@ public class ClickPositionCreatePrefabScript : MonoBehaviour
         return prefabs[Random.Range(0, prefabs.Count)];
 
     }
+    public static void GameEnd()
+    {
+        instance.gameEnd = true;
+        instance.m_scoreTrigger.SetActive(true);
+    }
 
+    public static void UpdateScore()
+    {
+        m_score++;
+        Debug.Log(m_score);
+    }
     // Update is called once per frame
     public void GenerateObject()
     {
+        if (gameEnd)
+        {
+            return;
+        }
         // ここでの注意点は座標の引数にVector2を渡すのではなく、Vector3を渡すことである。
         // Vector3でマウスがクリックした位置座標を取得する
         clickPosition = Input.mousePosition;
