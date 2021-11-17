@@ -32,7 +32,7 @@ public class ClickPositionCreatePrefabScript : MonoBehaviour
         // Vector3でマウスがクリックした位置座標を取得する
         clickPosition = Input.mousePosition;
         // Z軸修正
-        clickPosition.z = 10f;
+        clickPosition.z = 13f;
         var randomPrefab = GetRandom();
         // オブジェクト生成 : オブジェクト(GameObject), 位置(Vector3), 角度(Quaternion)
         // ScreenToWorldPoint(位置(Vector3))：スクリーン座標をワールド座標に変換する
