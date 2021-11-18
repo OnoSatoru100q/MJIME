@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ScoreChack : MonoBehaviour
 {
-    public Text UIText;
+   
 
     void Start()
     {

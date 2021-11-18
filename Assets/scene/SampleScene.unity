@@ -504,7 +504,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 191827144}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!4 &191827147
 Transform:
   m_ObjectHideFlags: 0
@@ -1557,7 +1557,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444466985}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!4 &444466988
 Transform:
   m_ObjectHideFlags: 0
@@ -3228,7 +3228,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a106d3e00c24fe64e801b08f08776a63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UIText: {fileID: 0}
 --- !u!65 &1166722652
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5661,7 +5660,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640359433}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1640359435
 Camera:
   m_ObjectHideFlags: 0
@@ -7439,7 +7438,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975284906}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1975284908
 Camera:
   m_ObjectHideFlags: 0
