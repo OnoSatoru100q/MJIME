@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class ClickPositionCreatePrefabScript : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class ClickPositionCreatePrefabScript : MonoBehaviour
     public List<GameObject> prefabs;
 
     public Camera currentCamera;
+
+    public Text  UIText;
 
     [SerializeField] GameObject m_scoreTrigger = default;
 
@@ -41,7 +44,7 @@ public class ClickPositionCreatePrefabScript : MonoBehaviour
     public static void UpdateScore()
     {
         m_score++;
-        Debug.Log(m_score);
+        UIText.text = (m_score);
     }
     // Update is called once per frame
     public void GenerateObject()
