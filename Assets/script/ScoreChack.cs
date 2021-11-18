@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScoreChack : MonoBehaviour
 {
-    
+    public Text UIText;
+
     void Start()
     {
         
@@ -16,5 +18,6 @@ public class ScoreChack : MonoBehaviour
         var pos = transform.position;
         pos.y++;
         transform.position = pos;
+     
     }
 }
