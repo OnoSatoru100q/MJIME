@@ -275,6 +275,7 @@ MonoBehaviour:
   - {fileID: 1798140717}
   - {fileID: 1320648580}
   currentCamera: {fileID: 963194227}
+  UIText: {fileID: 0}
   m_scoreTrigger: {fileID: 1166722650}
 --- !u!4 &90074744
 Transform:
@@ -739,7 +740,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &294992293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,12 +952,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3e190d11f51a354d8e2f116646f48bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Camera: {fileID: 963194227}
-  subCamera1: {fileID: 444466986}
-  subCamera: {fileID: 191827145}
-  subCamera2: {fileID: 1975284908}
-  subCamera3: {fileID: 1640359435}
-  Canvas: {fileID: 371115722}
 --- !u!114 &324024923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4995,7 +4990,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -27.3, y: 34.7}
+  m_AnchoredPosition: {x: -27.3, y: 35.7}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1463738664
@@ -5103,8 +5098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Menue1: {fileID: 1662893099}
   Menue: {fileID: 331784218}
-  Canvas: {fileID: 0}
-  Cube: {fileID: 0}
+  Canvas: {fileID: 1860186645}
 --- !u!1 &1503463254
 GameObject:
   m_ObjectHideFlags: 0
@@ -5988,7 +5982,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1662893097
 MonoBehaviour:
   m_ObjectHideFlags: 0

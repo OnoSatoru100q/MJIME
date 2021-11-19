@@ -8,7 +8,7 @@ public class Canvaschange2: MonoBehaviour
     public Canvas Menue1;
     public Canvas Menue;
     public Canvas Canvas;
-    public GameObject Cube;
+  
 
 
 
