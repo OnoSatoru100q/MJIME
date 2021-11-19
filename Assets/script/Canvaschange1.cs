@@ -2,19 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class ff : MonoBehaviour
+public class Canvaschange2: MonoBehaviour
 {
     //Buttonを格納する変数
+    public Canvas Menue1;
     public Canvas Menue;
     public Canvas Canvas;
-    
+    public GameObject Cube;
 
-    
+
+
     // Use this for initialization
     void Start()
     {
         //初めはBottonをオフにしておく
-        Menue.enabled = false;
+        Menue1.enabled = false;
     }
     // Update is called once per frame
     void Update()
@@ -24,21 +26,15 @@ public class ff : MonoBehaviour
     public void PushButton()
     {
         //もしButtonがオフだったら
-        if (!Menue.enabled)
+        if (!Menue1.enabled)
         {
             //サブカメラをオンにする
-            Menue.enabled = true;
+            Menue1.enabled = true;
+            
+            Menue.enabled = false;
             Canvas.enabled = false;
 
         }
-        //もしButtonがオンだったら
-        else
-        {
-            //Buttoをオフにする
-            Menue.enabled = false;
-            
-            //サブカメラ１をオンにする
-
-        }
+      
     }
 }

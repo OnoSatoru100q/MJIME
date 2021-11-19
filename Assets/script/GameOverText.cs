@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GO : MonoBehaviour
+public class GameOverText : MonoBehaviour
 {
     public Text gameOverText;
     public GameObject Retry;

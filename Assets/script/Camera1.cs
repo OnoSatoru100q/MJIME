@@ -1,22 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class Camera1 : MonoBehaviour
+public class CAmera1 : MonoBehaviour
 {
     //カメラを格納する変数
- 
     public Camera Camera;
-    public Camera subCamera;
     public Camera subCamera1;
+   
+    public Camera subCamera;
+    
     public Camera subCamera2;
     public Camera subCamera3;
+
+
 
     public GameObject Canvas;
     // Use this for initialization
     void Start()
     {
         //初めはサブカメラをオフにしておく
-        subCamera.enabled = false;
+        subCamera1.enabled = false;
     }
     // Update is called once per frame
     void Update()
@@ -26,14 +29,14 @@ public class Camera1 : MonoBehaviour
     public void PushButton()
     {
         //もしサブカメラがオフだったら
-        if (!subCamera.enabled)
+        if (!subCamera1.enabled)
         {
             //サブカメラをオンにして
-            subCamera.enabled = true;
+            subCamera1.enabled = true;
             //カメラをオフにする
             Camera.enabled = false;
             //キャンバスを映すカメラをサブカメラオブジェクトにする
-            Canvas.GetComponent<Canvas>().worldCamera = subCamera;
+            Canvas.GetComponent<Canvas>().worldCamera = subCamera1;
         }
         //もしサブカメラがオンだったら
         else
@@ -50,4 +53,3 @@ public class Camera1 : MonoBehaviour
         }
     }
 }
-      

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;//Sliderを使用するために必要
 
 [RequireComponent(typeof(Slider))]
-public class jj: MonoBehaviour
+public class BGMvolume : MonoBehaviour
 {
 
     Slider m_Slider;//音量調整用スライダー

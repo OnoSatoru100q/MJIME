@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class pp : MonoBehaviour
+public class SoundEffect : MonoBehaviour
 {
 	// 音データの再生装置を格納する変数
 	private AudioSource audio;

@@ -44,7 +44,7 @@ public class ClickPositionCreatePrefabScript : MonoBehaviour
     public static void UpdateScore()
     {
         m_score++;
-        UIText.text = (m_score);
+        Debug.Log(m_score);
     }
     // Update is called once per frame
     public void GenerateObject()

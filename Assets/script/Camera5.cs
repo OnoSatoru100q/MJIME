@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class ee : MonoBehaviour
+public class Camera5: MonoBehaviour
 {
     //カメラを格納する変数
     public Camera Camera;
